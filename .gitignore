@@ -1,0 +1,32 @@
+# 🛑 Archivos y carpetas de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# 🛑 Entorno virtual (venv)
+venv/
+.env
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 🛑 Archivos de configuración de editores de código
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🛑 Configuración de pruebas y reportes
+reportes/
+screenshots/
+allure-results/
+allure-report/
+behave.log
+debug.log
+
+# 🛑 Archivos de sistema (Mac y Linux)
+.DS_Store
+Thumbs.db
