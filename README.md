@@ -1,8 +1,27 @@
-# 🏆 Basic Flutter App Tests - Pruebas Automatizadas 📱
+#  Appium Flutter App Tests - Pruebas Automatizadas 📱
 
-Este repositorio contiene pruebas automatizadas de una aplicación Flutter utilizando **Appium**, **Behave (Cucumber/Gherkin)** y **Allure** para los reportes.
+Este repositorio contiene pruebas automatizadas de una App que desarrolle en Flutter.
+Este repo de tests automatizado para Mobile utiliza **Appium**, **Behave (Cucumber/Gherkin)** y **Allure** para los reportes.
 
 ---
+Esta es la app en flutter para automatizar en iOS y en Android
+![image](https://github.com/user-attachments/assets/dec0c8ee-d04f-4cad-8365-461a37e48bc3)
+
+En breve subo la app NinjaSDET a github para que la puedan checar
+Este es uno de los 4 features que tiene por el momento
+### Feature: Login en la app y acceso a dropdown toggle (La accion en el video empieza a los 5 segundos jeje perdon el delay)
+
+
+https://github.com/user-attachments/assets/33217c67-4e07-4295-8d46-bbabe271c41e
+
+
+####Aca dejo el link del drive con video evidencias de las pruebas automatizadas que hay hasta ahora
+https://drive.google.com/drive/folders/1xfstL6r2t2DEIujrrV8yLzV5_jT3DlAZ?usp=sharing 
+
+---
+####Genera reporte correctamente
+![image](https://github.com/user-attachments/assets/1a7139bc-e0e2-4e66-bf32-138db88e12c0)
+
 
 ## 🚀 Instalación y Configuración
 
@@ -26,24 +45,6 @@ Una vez activado el entorno virtual, instala todas las librerías necesarias con
 ```bash
 pip install -r requirements.txt
 ```
-🏗️ Estructura del Proyecto
-
-basic_flutter_app_tests/
-│── features/
-│   ├── login.feature   # Escenarios en Gherkin
-│── steps/
-│   ├── login_steps.py  # Implementación de los pasos en Python
-│── pages/
-│   ├── base_page.py     # Clase base para todas las páginas
-│   ├── login_page.py    # Página de login (Page Object Model)
-│── utils/
-│   ├── appium_driver.py # Gestión del driver de Appium
-│   ├── config.py        # Configuración de variables globales
-│── reports/             # Carpeta para almacenar reportes de Allure
-│── environment.py       # Setup/Teardown de pruebas
-│── requirements.txt     # Librerías necesarias
-│── behave.ini           # Configuración de Behave
-│── README.md            # Explicación del proyecto
 
 🔥 Ejecutar las Pruebas
 1️⃣ Ejecutar pruebas con Behave
