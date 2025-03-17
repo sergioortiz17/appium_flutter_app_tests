@@ -7,9 +7,9 @@ Este repo de tests automatizado para Mobile utiliza **Appium**, **Behave (Cucumb
 Esta es la app en flutter para automatizar en iOS y en Android
 ![image](https://github.com/user-attachments/assets/dec0c8ee-d04f-4cad-8365-461a37e48bc3)
 
-En breve subo la app NinjaSDET a github para que la puedan checar
-Este es uno de los 4 features que tiene por el momento
-### Feature: Login en la app y acceso a dropdown toggle (La accion en el video empieza a los 5 segundos jeje perdon el delay)
+Aca les dejo el repo de la app https://github.com/sergioortiz17/NinjaSDET
+- Este es uno de los 4 features que tiene por el momento
+#### Feature: Login en la app y acceso a dropdown toggle (La accion en el video empieza a los 5 segundos jeje perdon el delay)
 
 
 https://github.com/user-attachments/assets/33217c67-4e07-4295-8d46-bbabe271c41e
