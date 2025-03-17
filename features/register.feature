@@ -1,8 +1,10 @@
 @register
+# behave -t @register
+
 Feature: Registro de usuario en la aplicación
 
   Scenario Outline: Registro exitoso de un nuevo usuario
-    Given que el usuario abre la aplicación3
+    Given que el usuario abre la app NinjaSDET
     When accede a la opción de registro
     And activa las opciones necesarias
     And ingresa "<nombre_usuario>" en el campo de usuario
@@ -16,5 +18,3 @@ Feature: Registro de usuario en la aplicación
     Examples:
       | nombre_usuario | password    |
       | test1         | Holamundo1  |
-    #   | test2         | Contraseña2 |
-    #   | usuario123    | Pass12345   |

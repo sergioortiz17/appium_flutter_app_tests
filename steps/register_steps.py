@@ -2,7 +2,7 @@ from behave import given, when
 from pages.register_page import RegisterPage
 from utils.appium_driver import get_driver
 
-@given('que el usuario abre la aplicación3')
+@given('que el usuario abre la app NinjaSDET')
 def step_open_app(context):
     """Inicializa el driver y la página de registro"""
     context.driver = get_driver()
@@ -24,7 +24,6 @@ def step_enter_password(context, password):
 def step_confirm_password(context, password):
     context.register_page.confirm_password(password)
     context.driver.hide_keyboard()
-
 
 @when('activa las opciones necesarias')
 def step_activate_options(context):

@@ -1,4 +1,6 @@
 @dropdown_toggle
+# behave -t @dropdown_toggle
+
 Feature: Login en la app y acceso a dropdown toggle
 
   Scenario Outline: Login exitoso con usuario y acceso a funcionalidad específica
@@ -11,5 +13,3 @@ Feature: Login en la app y acceso a dropdown toggle
     Examples:
       | usuario  | contraseña |
       | admin    | admin     |
-    #   | tester1  | test123   |
-    #   | qauser   | pass456   |

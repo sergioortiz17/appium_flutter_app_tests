@@ -12,5 +12,3 @@ Feature: Login en la aplicación Ninja SDET
     Examples:
       | usuario  | contraseña |
       | admin    | admin     |
-    #   | tester1  | test123   |
-    #   | qauser   | pass456   |

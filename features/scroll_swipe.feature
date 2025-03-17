@@ -1,9 +1,9 @@
 @scroll_swipe
 # behave -t @scroll_swipe
 
-Feature: Scroll, Swipe y navegación a la Tienda
+Feature: Ingresa al modulo Scroll, Swipe y Grid,  navega a la Tienda y prueba los backbuttons
 
-  Scenario Outline: Login exitoso y navegación con Scroll y Swipe
+  Scenario Outline: Login exitoso y navega dentro de la app
     Given que el usuario abre la aplicación
     When ingresa "<usuario>" en el campo usuario
     And ingresa "<contraseña>" en el campo contraseña
@@ -13,5 +13,3 @@ Feature: Scroll, Swipe y navegación a la Tienda
     Examples:
       | usuario  | contraseña |
       | admin    | admin     |
-    #   | tester1  | test123   |
-    #   | qauser   | pass456   |
