@@ -1,6 +1,6 @@
-# login_page.py
 from appium.webdriver.common.appiumby import AppiumBy
 from utils.appium_driver import get_driver
+import time
 
 class LoginPage:
     def __init__(self, driver):
@@ -14,6 +14,7 @@ class LoginPage:
 
     def click_login(self):
         self.driver.find_element(AppiumBy.ACCESSIBILITY_ID, "Ingresar").click()
+        time.sleep(2) 
     
     def get_welcome_message(self):
         return self.driver.find_element(AppiumBy.ACCESSIBILITY_ID, "¡Hola, bienvenido!").text
