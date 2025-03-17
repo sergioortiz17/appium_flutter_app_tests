@@ -50,6 +50,12 @@ basic_flutter_app_tests/
 ```bash
 behave --format allure_behave.formatter:AllureFormatter -o reportes/
 ```
+Tambien podes correr individualmente cada test
+behave -t @scroll_swipe
+behave -t @register
+behave -t @dropdown_toggle
+behave -t @login
+
 2️⃣ Generar Reporte con Allure
 ```bash
 allure serve reportes/
